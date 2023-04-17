@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#logo">Acceuil</a></li>
+                <li><a href="#slide1">Qui sommes nous ?</a></li>
+                <li><a href="#slide2">Histoire</a></li>
+                <li><a href="#slide3">Objectifs et valeurs</a></li>
+                <li><a href="#slide4">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="blocHorizontal">
+            <div class="slide zero" id="logo">
+                <div >
+                    <img class="logo" src="./img/LOGO_MLCE_20230330.png" alt="logo">
+                </div>
+
+            </div>
+            <div class="slide one" id="slide1">
+                <div class="cadre">
+                    <h1 class="titre">Qui sommes nous ?</h1><br/>
+                    <p>
+                        La vie d'une entreprise est souvent confrontée à des enjeux sociaux, financiers et/ou organisationnels. <br/>
+                        Notre cabinet vous propose des prestations de qualité afin de vous aider à relancer votre entreprise.<br/>
+                        Nous sommes à votre écoute pour élaborer un projet d'entreprise qui vous ressemble tout en respectant vos prérogatives.<br/>
+                    </p>
+                </div>
+
+            </div>
+            <div class="slide two" id="slide2">
+                <div class="cadre">
+                    <h1  class="titre">Histoire</h1><br/>
+                    <p>
+                        Fondée en 2015, notre société MLCE CONSEIL se compose de 4 experts de différents domaines RH: <br/>
+                        <ul class="liste">
+                            <li> Recrutement et gestion de carrière</li>
+                            <li> Management développement RH</li>
+                            <li> Relation sociales</li>
+                            <li> Audit social</li>
+                            <li> Gestion de personnel</li>
+                        </ul>
+                        <br/>
+                        <br/>
+                        Notre équipe met en oeuvre toutes ses compétences et ses expériences afin de répondre au mieux aux besoins de votre entreprise.<br/>
+                    </p>
+                </div>
+
+            </div>
+            <div class="slide three" id="slide3">
+                <div class="cadre">
+                    <h1 class="titre">Nos objectifs et valeurs</h1><br/>
+                    <p>
+                        Notre objectif est de conseiller, et d'offrir une diversité de solutions aux entreprises rencontrant des difficultés.<br/>
+                        <p>
+                            Nos valeurs sont les suivantes :
+                            <ul class="liste">
+                                <li>La satisfaction du client</li>
+                                <li>L'écoute et la pédagogie</li>
+                                <li>La confidentialité</li>
+                            </ul><br/>
+                    </p>
+                </div>
+
+            </div>
+            <div class="slide four" id="slide4">
+                <div class="cadre2">
+                    <form><br/>
+                        <figcaption>Contactez nous</figcaption><br/><br/>
+                        <label for="fname">Prenom: </label><br/>
+                        <input type="text" id="fname" name="fname" placeholder="Votre prénom" required><br/><br/>
+                        <label for="lname">Nom: </label><br/>
+                        <input type="text" id="lname" name="lname" placeholder="Votre nom"><br/><br/>
+                        <label for="email">Email: </label><br/>
+                        <input type="email" id="email" name="email" placeholder="Votre email" required><br/><br/>
+                        <label for="phone">Téléphone: </label><br/>
+                        <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone"><br/><br/>
+                        <label for="subject">Sujet: </label><br/>
+                        <textarea id="subject" name="subject" placeholder="Votre message ici." rows="15" cols="40"></textarea>
+                        <br/><br/>
+                        <button>Envoyer le formulaire</button> <br/>
+                    </form>
+                </div>
+
+                <div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
